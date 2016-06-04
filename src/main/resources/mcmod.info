@@ -1,0 +1,16 @@
+[
+{
+  "modid": "betterenhancement",
+  "name": "BetterEnhancement",
+  "description": "Mod for various items",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Watschman"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
