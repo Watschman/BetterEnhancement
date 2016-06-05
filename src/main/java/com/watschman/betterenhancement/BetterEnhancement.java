@@ -21,13 +21,16 @@ public class BetterEnhancement
     @EventHandler
     public void preinit(FMLPreInitializationEvent event)
     {
+        proxy.preInit(event);
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        proxy.init(event);
     }
     @EventHandler
     public void postinit(FMLPostInitializationEvent event)
     {
+        proxy.postInit(event);
     }
 }
