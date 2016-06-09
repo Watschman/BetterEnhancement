@@ -1,0 +1,37 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "betterenhancement:blocks/temporary/TopTexture",
+      "down": "betterenhancement:blocks/temporary/BottomTexture",
+      "north": "betterenhancement:blocks/temporary/FrontTexture",
+      "east": "betterenhancement:blocks/temporary/EastTexture",
+      "west": "betterenhancement:blocks/temporary/WestTexture",
+      "south": "betterenhancement:blocks/temporary/BackTexture",
+      "particle": "betterenhancement:blocks/temporary/FrontTexture"
+    },
+    "model": "minecraft:cube",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "facing": {
+      "west": {
+        "y": -90
+      },
+      "east": {
+        "y": 90
+      },
+      "north": {
+      },
+      "south": {
+        "y": 180
+      }
+    }
+  }
+}

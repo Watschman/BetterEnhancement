@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "betterenhancement:blocks/temporary/TopTexture",
+    "down": "betterenhancement:blocks/temporary/BottomTexture",
+    "north": "betterenhancement:blocks/temporary/FrontTexture",
+    "east": "betterenhancement:blocks/temporary/EastTexture",
+    "west": "betterenhancement:blocks/temporary/WestTexture",
+    "south": "betterenhancement:blocks/temporary/BackTexture",
+    "particle": "betterenhancement:blocks/temporary/FrontTexture"
+  }
+}
