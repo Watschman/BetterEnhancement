@@ -1,4 +1,10 @@
 tile.sample_block.name=sample Block
 
 item.sample_item.name=sample Item
+item.gold_infused_diamond_axe.name=Gold-Infused Diamond Axe
+item.gold_infused_diamond_pickaxe.name=Gold-Infused Diamond Pickaxe
+item.gold_infused_diamond_hoe.name=Gold-Infused Diamond Hoe
+item.gold_infused_diamond_shovel.name=Gold-Infused Diamond Shovel
+item.gold_infused_diamond_sword.name=Gold-Infused Diamond Sword
 item.carrot_apple.name=Carrot flavoured Apple
+item.butter.name=Butter
