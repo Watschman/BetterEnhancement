@@ -16,4 +16,9 @@ public class CommonProxy implements IProxy{
     @Override
     public void postInit(FMLPostInitializationEvent event) {
     }
+
+    @Override
+    public void isSinglePlayer() {
+
+    }
 }
