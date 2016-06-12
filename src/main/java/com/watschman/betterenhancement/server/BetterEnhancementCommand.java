@@ -4,6 +4,7 @@ import com.watschman.betterenhancement.reference.Reference;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
@@ -17,7 +18,6 @@ import java.util.List;
 public class BetterEnhancementCommand implements ICommand{
     private List aliases;
     private List tabs;
-    private List gods;
     public BetterEnhancementCommand(){
         this.aliases = new ArrayList();
         this.aliases.add("betterenhancement");
@@ -44,19 +44,25 @@ public class BetterEnhancementCommand implements ICommand{
 
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
+        EntityPlayer entityplayer = sender.getEntityWorld().getPlayerEntityByName(sender.getName());
+        EntityPlayerMP entityplayermp= (EntityPlayerMP)entityplayer;
         if (args.length == 0)
             sender.addChatMessage(new TextComponentString(getCommandUsage(sender)));
         else {
             if (args[0].equals("god")){
-                if (gods.contains(sender))
-                    gods.remove(sender);
-                else
-                    gods.add(sender);
+                if (entityplayermp.capabilities.allowFlying) {
+                    entityplayermp.capabilities.allowFlying = false;
+                    entityplayermp.capabilities.disableDamage = false;
+                }
+                else {
+                    entityplayermp.capabilities.allowFlying = true;
+                    entityplayermp.capabilities.disableDamage = true;
+                }
             }
             else
                 sender.addChatMessage(new TextComponentString(getCommandUsage(sender)));
         }
-        loadgods(sender);
+        entityplayermp.sendPlayerAbilities();
     }
 
     @Override
@@ -80,12 +86,5 @@ public class BetterEnhancementCommand implements ICommand{
     @Override
     public int compareTo(ICommand o) {
         return 0;
-    }
-    public void loadgods(ICommandSender sender){
-        for (Object god : this.gods) {
-            EntityPlayerMP entityplayermp = (EntityPlayerMP) god;
-            entityplayermp.capabilities.allowFlying = true;
-            entityplayermp.capabilities.disableDamage = true;
-        }
     }
 }
