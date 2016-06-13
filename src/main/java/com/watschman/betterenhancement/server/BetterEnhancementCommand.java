@@ -18,23 +18,24 @@ import java.util.List;
 public class BetterEnhancementCommand implements ICommand{
     private List aliases;
     private List tabs;
+    private final String primary_aliase = "BetterEnhancement";
     public BetterEnhancementCommand(){
         this.aliases = new ArrayList();
-        this.aliases.add("betterenhancement");
-        this.aliases.add("Betterenhancement");
+        this.aliases.add(this.primary_aliase);
         this.aliases.add("BetterEnhancement");
+        this.aliases.add("betterenhancement");
         this.aliases.add("be");
         this.tabs = new ArrayList();
         this.tabs.add("god");
     }
     @Override
     public String getCommandName() {
-        return "betterenhancement";
+        return this.primary_aliase;
     }
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "Usage: /be god";
+        return "/" + this.aliases + " " + this.tabs;
     }
 
     @Override
@@ -75,7 +76,7 @@ public class BetterEnhancementCommand implements ICommand{
 
     @Override
     public List<String> getTabCompletionOptions(MinecraftServer server, ICommandSender sender, String[] args, @Nullable BlockPos pos) {
-        return this.tabs;
+            return this.tabs;
     }
 
     @Override

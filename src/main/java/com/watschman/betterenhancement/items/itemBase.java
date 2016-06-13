@@ -17,7 +17,7 @@ public class itemBase {
     public static Item carrot_apple = new carrotApple();
     public static Item butter = new butter();
     public static Item gold_infused_diamond_pickaxe = new goldInfusedDiamondPickaxe();
-//    public static Item gold_infused_diamond_axe = new goldInfusedDiamondAxe();
+    public static Item gold_infused_diamond_axe = new goldInfusedDiamondAxe();
     public static Item gold_infused_diamond_shovel = new goldInfusedDiamondShovel();
     public static Item gold_infused_diamond_hoe = new goldInfusedDiamondHoe();
     public static Item gold_infused_diamond_sword = new goldInfusedDiamondSword();
@@ -26,7 +26,7 @@ public class itemBase {
     public static void init(){
         RegistryHelper.registerItem(sample_item, "sample_item", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_pickaxe, "gold_infused_diamond_pickaxe", CreativeTab.BetterEnhancementTab);
-        //      RegistryHelper.registerItem(gold_infused_diamond_axe, "gold_infused_diamond_axe", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(gold_infused_diamond_axe, "gold_infused_diamond_axe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_shovel, "gold_infused_diamond_shovel", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_hoe, "gold_infused_diamond_hoe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_sword, "gold_infused_diamond_sword", CreativeTab.BetterEnhancementTab);
@@ -40,7 +40,7 @@ public class itemBase {
         registerRender(carrot_apple);
         registerRender(butter);
         registerRender(gold_infused_diamond_pickaxe);
-    //    registerRender(gold_infused_diamond_axe);
+        registerRender(gold_infused_diamond_axe);
         registerRender(gold_infused_diamond_shovel);
         registerRender(gold_infused_diamond_hoe);
         registerRender(gold_infused_diamond_sword);
