@@ -1,5 +1,6 @@
 package com.watschman.betterenhancement.blocks;
 
+import com.watschman.betterenhancement.client.creativetabs.CreativeTab;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.util.RegistryHelper;
 import net.minecraft.block.Block;
@@ -12,7 +13,7 @@ public class blockBase {
     public static sampleBlock sample_Block;
     public static void init(){
         sample_Block = new sampleBlock();
-        RegistryHelper.registerBlock(sample_Block, "sample_block", CreativeTabs.BUILDING_BLOCKS);
+        RegistryHelper.registerBlock(sample_Block, "sample_block", CreativeTab.BetterEnhancementTab);
     }
     public static void registerRenders(){
         registerRender(sample_Block);
