@@ -3,7 +3,9 @@ package com.watschman.betterenhancement.items;
 import com.watschman.betterenhancement.client.creativetabs.CreativeTab;
 import com.watschman.betterenhancement.items.food.butter;
 import com.watschman.betterenhancement.items.food.carrotApple;
-import com.watschman.betterenhancement.items.tools.*;
+import com.watschman.betterenhancement.items.gems.ruby;
+import com.watschman.betterenhancement.items.misc.sampleItem;
+import com.watschman.betterenhancement.items.tools.goldinfuseddiamond.*;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.util.RegistryHelper;
 import net.minecraft.client.Minecraft;
@@ -21,15 +23,19 @@ public class itemBase {
     public static Item gold_infused_diamond_shovel = new goldInfusedDiamondShovel();
     public static Item gold_infused_diamond_hoe = new goldInfusedDiamondHoe();
     public static Item gold_infused_diamond_sword = new goldInfusedDiamondSword();
+    public static Item gold_infused_diamond_paxel = new goldInfusedDiamondPaxel();
+    public static Item ruby = new ruby();
 
 
     public static void init(){
         RegistryHelper.registerItem(sample_item, "sample_item", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(ruby, "ruby", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_pickaxe, "gold_infused_diamond_pickaxe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_axe, "gold_infused_diamond_axe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_shovel, "gold_infused_diamond_shovel", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_hoe, "gold_infused_diamond_hoe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(gold_infused_diamond_sword, "gold_infused_diamond_sword", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(gold_infused_diamond_paxel, "gold_infused_diamond_paxel", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(carrot_apple, "carrot_apple", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(butter, "butter", CreativeTab.BetterEnhancementTab);
     }
@@ -37,6 +43,7 @@ public class itemBase {
 
     public static void registerRenders(){
         registerRender(sample_item);
+        registerRender(ruby);
         registerRender(carrot_apple);
         registerRender(butter);
         registerRender(gold_infused_diamond_pickaxe);
@@ -44,6 +51,7 @@ public class itemBase {
         registerRender(gold_infused_diamond_shovel);
         registerRender(gold_infused_diamond_hoe);
         registerRender(gold_infused_diamond_sword);
+        registerRender(gold_infused_diamond_paxel);
     }
 
 

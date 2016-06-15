@@ -1,4 +1,4 @@
-package com.watschman.betterenhancement.items;
+package com.watschman.betterenhancement.items.misc;
 
 import net.minecraft.item.Item;
 

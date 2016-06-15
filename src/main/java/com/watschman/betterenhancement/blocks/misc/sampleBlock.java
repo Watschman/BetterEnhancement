@@ -1,4 +1,4 @@
-package com.watschman.betterenhancement.blocks;
+package com.watschman.betterenhancement.blocks.misc;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;

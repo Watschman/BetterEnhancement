@@ -1,10 +1,10 @@
-package com.watschman.betterenhancement.items.tools;
+package com.watschman.betterenhancement.items.tools.goldinfuseddiamond;
 
 import com.google.common.collect.Sets;
+import com.watschman.betterenhancement.items.tools.itemToolMaterial;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import net.minecraftforge.fml.common.registry.GameRegistry;

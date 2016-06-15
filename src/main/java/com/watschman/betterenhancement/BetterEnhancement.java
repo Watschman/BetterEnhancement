@@ -1,6 +1,7 @@
 package com.watschman.betterenhancement;
 
 import com.watschman.betterenhancement.handler.ConfigurationHandler;
+import com.watschman.betterenhancement.handler.OreGenHandler;
 import com.watschman.betterenhancement.proxy.IProxy;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.server.BetterEnhancementCommand;
@@ -33,6 +34,7 @@ public class BetterEnhancement
     public void init(FMLInitializationEvent event)
     {
         proxy.init(event);
+        OreGenHandler.init();
     }
     @EventHandler
     public void postinit(FMLPostInitializationEvent event)
