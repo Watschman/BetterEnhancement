@@ -1,6 +1,7 @@
 package com.watschman.betterenhancement;
 
 import com.watschman.betterenhancement.handler.ConfigurationHandler;
+import com.watschman.betterenhancement.handler.OreDictHandler;
 import com.watschman.betterenhancement.handler.OreGenHandler;
 import com.watschman.betterenhancement.proxy.IProxy;
 import com.watschman.betterenhancement.reference.Reference;
@@ -35,6 +36,7 @@ public class BetterEnhancement
     {
         proxy.init(event);
         OreGenHandler.init();
+        OreDictHandler.init();
     }
     @EventHandler
     public void postinit(FMLPostInitializationEvent event)

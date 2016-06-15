@@ -16,6 +16,9 @@ item.gold_infused_diamond_shovel.name=Gold-Infused Diamond Shovel
 item.gold_infused_diamond_paxel.name=Gold-Infused Diamond Paxel
 item.gold_infused_diamond_sword.name=Gold-Infused Diamond Sword
 
+item.ruby_axe.name=Ruby Axe
+item.ruby_pickaxe.name=Ruby Pickaxe
+
 <Food>
 item.butter.name=Butter
 item.carrot_apple.name=Carrot flavoured Apple
