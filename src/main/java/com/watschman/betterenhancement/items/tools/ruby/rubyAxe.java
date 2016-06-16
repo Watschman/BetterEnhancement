@@ -17,10 +17,11 @@ public class rubyAxe extends ItemTool{
     public rubyAxe() {
         super(1.0F, -2.6F, itemToolMaterial.RUBY, EFFECTIVE_ON);
         GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "xxx",
-                " y ",
+                "xx ",
+                "xy ",
                 " y ",
                 'x', "gemRuby",
-                'y', "stickWood"));
+                'y', "stickWood"
+        ));
     }
 }

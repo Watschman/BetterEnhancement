@@ -18,6 +18,9 @@ item.gold_infused_diamond_sword.name=Gold-Infused Diamond Sword
 
 item.ruby_axe.name=Ruby Axe
 item.ruby_pickaxe.name=Ruby Pickaxe
+item.ruby_shovel.name=Ruby Shovel
+item.ruby_hoe.name=Ruby Hoe
+item.ruby_sword.name=Ruby Sword
 
 <Food>
 item.butter.name=Butter

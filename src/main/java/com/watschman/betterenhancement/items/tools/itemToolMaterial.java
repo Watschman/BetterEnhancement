@@ -8,5 +8,5 @@ import net.minecraftforge.common.util.EnumHelper;
 
 public class itemToolMaterial {
     public static Item.ToolMaterial GOLD_INFUSED_DIAMOND = EnumHelper.addToolMaterial("GOLD_INFUSED_DIAMOND", 3, 9999, 18.0F, 10.0F, 22).setRepairItem(new ItemStack(Items.DIAMOND));
-    public static Item.ToolMaterial RUBY = EnumHelper.addToolMaterial("RUBY", 2, 750, 8.0F, 5.0F, 11).setRepairItem(new ItemStack(itemBase.ruby));
+    public static Item.ToolMaterial RUBY = EnumHelper.addToolMaterial("RUBY", 2, 750, 7.0F, 3.0F, 11).setRepairItem(new ItemStack(itemBase.ruby));
 }

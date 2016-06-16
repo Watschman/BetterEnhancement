@@ -6,8 +6,7 @@ import com.watschman.betterenhancement.items.food.carrotApple;
 import com.watschman.betterenhancement.items.gems.ruby;
 import com.watschman.betterenhancement.items.misc.sampleItem;
 import com.watschman.betterenhancement.items.tools.goldinfuseddiamond.*;
-import com.watschman.betterenhancement.items.tools.ruby.rubyAxe;
-import com.watschman.betterenhancement.items.tools.ruby.rubyPickaxe;
+import com.watschman.betterenhancement.items.tools.ruby.*;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.util.RegistryHelper;
 import net.minecraft.client.Minecraft;
@@ -29,6 +28,9 @@ public class itemBase {
     public static Item ruby = new ruby();
     public static Item ruby_pickaxe = new rubyPickaxe();
     public static Item ruby_axe = new rubyAxe();
+    public static Item ruby_shovel = new rubyShovel();
+    public static Item ruby_hoe = new rubyHoe();
+    public static Item ruby_sword = new rubySword();
 
 
     public static void init(){
@@ -44,6 +46,9 @@ public class itemBase {
         RegistryHelper.registerItem(butter, "butter", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(ruby_pickaxe, "ruby_pickaxe", CreativeTab.BetterEnhancementTab);
         RegistryHelper.registerItem(ruby_axe, "ruby_axe", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(ruby_shovel, "ruby_shovel", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(ruby_hoe, "ruby_hoe", CreativeTab.BetterEnhancementTab);
+        RegistryHelper.registerItem(ruby_sword, "ruby_sword", CreativeTab.BetterEnhancementTab);
     }
 
 
@@ -60,6 +65,9 @@ public class itemBase {
         registerRender(ruby);
         registerRender(ruby_pickaxe);
         registerRender(ruby_axe);
+        registerRender(ruby_shovel);
+        registerRender(ruby_hoe);
+        registerRender(ruby_sword);
     }
 
 

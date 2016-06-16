@@ -20,12 +20,12 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.9.4-1.3"
+version = "1.9.4-1.4"
 group= "com.watschman.betterenhancement" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "betterenhancement"
 
 minecraft {
-    version = "1.9.4-12.17.0.1962"
+    version = "1.9.4-12.17.0.1964"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
