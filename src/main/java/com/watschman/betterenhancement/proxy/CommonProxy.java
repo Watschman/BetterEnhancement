@@ -1,7 +1,7 @@
 package com.watschman.betterenhancement.proxy;
 
-import com.watschman.betterenhancement.blocks.blockBase;
-import com.watschman.betterenhancement.items.itemBase;
+import com.watschman.betterenhancement.blocks.BlockInit;
+import com.watschman.betterenhancement.items.ItemInit;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -9,8 +9,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CommonProxy implements IProxy{
     @Override
     public void preInit(FMLPreInitializationEvent event) {
-        itemBase.init();
-        blockBase.init();
+        ItemInit.init();
+        BlockInit.init();
     }
 
     @Override

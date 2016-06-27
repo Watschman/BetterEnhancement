@@ -6,6 +6,7 @@ itemGroup.better_enhancement_tab=Better Enhancement
 <Blocks>
 tile.sample_block.name=sample Block
 tile.ruby_ore.name=Ruby Ore
+tile.ruby_chest.name=Ruby Chest
 
 <Items>
 <Tools/Weapons>

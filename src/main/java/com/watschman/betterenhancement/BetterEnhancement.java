@@ -6,6 +6,7 @@ import com.watschman.betterenhancement.handler.OreGenHandler;
 import com.watschman.betterenhancement.proxy.IProxy;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.server.BetterEnhancementCommand;
+import com.watschman.betterenhancement.util.LogHelper;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -27,21 +28,27 @@ public class BetterEnhancement
     @EventHandler
     public void preinit(FMLPreInitializationEvent event)
     {
+        LogHelper.info("PreInitialization of Mod: " + Reference.MOD_NAME + " has started.");
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         MinecraftForge.EVENT_BUS.register(ConfigurationHandler.INSTANCE);
         proxy.preInit(event);
+        LogHelper.info("PreInitialization of Mod: " + Reference.MOD_NAME + " has ended.");
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        LogHelper.info("Initialization of Mod: " + Reference.MOD_NAME + " has started.");
         proxy.init(event);
         OreGenHandler.init();
         OreDictHandler.init();
+        LogHelper.info("Initialization of Mod: " + Reference.MOD_NAME + " has ended.");
     }
     @EventHandler
     public void postinit(FMLPostInitializationEvent event)
     {
+        LogHelper.info("PostInitialization of Mod: " + Reference.MOD_NAME + " has started.");
         proxy.postInit(event);
+        LogHelper.info("PostInitialization of Mod: " + Reference.MOD_NAME + " has ended.");
     }
     @EventHandler
     public void serverLoad(FMLServerStartingEvent event){

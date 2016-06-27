@@ -1,7 +1,7 @@
 package com.watschman.betterenhancement.proxy;
 
-import com.watschman.betterenhancement.blocks.blockBase;
-import com.watschman.betterenhancement.items.itemBase;
+import com.watschman.betterenhancement.blocks.RenderBlock;
+import com.watschman.betterenhancement.items.RenderItems;
 import com.watschman.betterenhancement.reference.Reference;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -16,8 +16,8 @@ public class ClientProxy extends CommonProxy {
     @Override
     public void init(FMLInitializationEvent event) {
         super.init(event);
-        itemBase.registerRenders();
-        blockBase.registerRenders();
+        RenderItems.registerRenders();
+        RenderBlock.registerRenders();
     }
 
     @Override

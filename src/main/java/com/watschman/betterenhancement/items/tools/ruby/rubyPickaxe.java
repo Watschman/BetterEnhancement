@@ -1,13 +1,14 @@
 package com.watschman.betterenhancement.items.tools.ruby;
 
-import com.watschman.betterenhancement.items.tools.itemToolMaterial;
+import com.watschman.betterenhancement.items.tools.ItemToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
-public class rubyPickaxe extends ItemPickaxe{
-    public rubyPickaxe() {
-        super(itemToolMaterial.RUBY);
+public class RubyPickaxe extends ItemPickaxe{
+    public RubyPickaxe() {
+        super(ItemToolMaterial.RUBY);
+        setUnlocalizedName("ruby_pickaxe");
         GameRegistry.addRecipe(new ShapedOreRecipe(this,
                 "xxx",
                 " y ",

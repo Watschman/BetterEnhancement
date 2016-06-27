@@ -10,12 +10,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RegistryHelper {
     public static void registerBlock(Block block, String name, CreativeTabs creativeTab){
-        block.setRegistryName(Reference.MOD_ID, name).setCreativeTab(creativeTab).setUnlocalizedName(name);
+        block.setRegistryName(Reference.MOD_ID, name).setCreativeTab(creativeTab);
         GameRegistry.register(block);
         GameRegistry.register(new ItemBlock(block), block.getRegistryName());
     }
     public static void registerItem(Item item, String name, CreativeTabs creativeTab){
-        item.setCreativeTab(creativeTab).setUnlocalizedName(name);
+        item.setCreativeTab(creativeTab);
         GameRegistry.register(item, new ResourceLocation(Reference.MOD_ID, name));
     }
 }
