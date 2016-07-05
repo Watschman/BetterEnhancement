@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "betterenhancement:items/gold_infused_diamond_pickaxe"
+    "layer0": "betterenhancement:items/tools/gold_infused_diamond/gold_infused_diamond_pickaxe"
   }
 }

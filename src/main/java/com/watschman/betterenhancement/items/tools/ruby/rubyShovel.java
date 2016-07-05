@@ -7,14 +7,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubyShovel extends ItemSpade{
     public RubyShovel() {
-        super(ItemToolMaterial.RUBY);
+        super(ItemToolMaterial.RUBY_TOOL);
         setUnlocalizedName("ruby_shovel");
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "x",
-                "y",
-                "y",
-                'x', "gemRuby",
-                'y', "stickWood"
-        ));
+        canRepair = true;
     }
 }

@@ -14,7 +14,7 @@ public class RubyOre extends BlockOre{
         setHardness(1F);
     }
     public Item getItemDropped(IBlockState state, Random rand, int fortune){
-        return ModItems.ruby;
+        return ModItems.RUBY;
     }
     public int quantityDropped(Random random){
         return 1 + random.nextInt(5);

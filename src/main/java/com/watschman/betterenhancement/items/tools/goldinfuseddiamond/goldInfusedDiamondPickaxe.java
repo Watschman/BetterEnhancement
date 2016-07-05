@@ -10,15 +10,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class GoldInfusedDiamondPickaxe extends ItemPickaxe{
     public GoldInfusedDiamondPickaxe() {
-        super(ItemToolMaterial.GOLD_INFUSED_DIAMOND);
+        super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
         setUnlocalizedName("gold_infused_diamond_pickaxe");
         canRepair = true;
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "xyx",
-                "xzx",
-                "xyx",
-                'x', new ItemStack(Blocks.GOLD_BLOCK),
-                'y', new ItemStack(Blocks.DIAMOND_BLOCK),
-                'z', new ItemStack(Items.DIAMOND_PICKAXE)));
     }
 }

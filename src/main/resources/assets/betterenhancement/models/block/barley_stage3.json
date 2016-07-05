@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "betterenhancement:blocks/crops/barley_stage_3"
+    }
+}

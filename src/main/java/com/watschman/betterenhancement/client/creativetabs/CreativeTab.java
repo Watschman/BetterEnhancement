@@ -8,7 +8,7 @@ public class CreativeTab {
     public static CreativeTabs BetterEnhancementTab = new CreativeTabs("better_enhancement_tab") {
         @Override
         public Item getTabIconItem() {
-            return ModItems.sample_item;
+            return ModItems.SAMPLE_ITEM;
         }
     };
 }

@@ -15,12 +15,5 @@ public class CarrotApple extends ItemFood {
         super(heal_amount, saturation, isWolfFood);
         setUnlocalizedName("carrot_apple");
         setMaxStackSize(32);
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                " x ",
-                "xyx",
-                " x ",
-                'x', "cropCarrot",
-                'y', new ItemStack(Items.APPLE)
-                ));
     }
 }

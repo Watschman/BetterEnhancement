@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "betterenhancement:items/ruby_pickaxe"
+    "layer0": "betterenhancement:items/tools/ruby/ruby_pickaxe"
   }
 }

@@ -14,8 +14,5 @@ public class Butter extends ItemFood {
     public Butter(){
         super(heal_amount, saturation, isWolfFood);
         setUnlocalizedName("butter");
-        GameRegistry.addRecipe(new ShapelessOreRecipe(this,
-                "cropWheat", new ItemStack(Items.MILK_BUCKET)
-                ));
     }
 }

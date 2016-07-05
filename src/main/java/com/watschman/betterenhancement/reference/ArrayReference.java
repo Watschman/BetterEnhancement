@@ -2,7 +2,6 @@ package com.watschman.betterenhancement.reference;
 
 import com.google.common.collect.Sets;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockOre;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
@@ -13,29 +12,36 @@ import static com.watschman.betterenhancement.blocks.ModBlocks.*;
 
 public class ArrayReference {
     public static final Item[] MOD_ITEMS = new Item[]{
-            sample_item,
-            carrot_apple,
-            butter,
-            gold_infused_diamond_axe,
-            gold_infused_diamond_hoe,
-            gold_infused_diamond_paxel,
-            gold_infused_diamond_pickaxe,
-            gold_infused_diamond_shovel,
-            gold_infused_diamond_sword,
-            ruby,
-            ruby_axe,
-            ruby_hoe,
-            ruby_pickaxe,
-            ruby_shovel,
-            ruby_sword
+            SAMPLE_ITEM,
+            CARROT_APPLE,
+            BARLEY,
+            BARLEY_SEED,
+            BUTTER,
+            GOLD_INFUSED_DIAMOND_AXE,
+            GOLD_INFUSED_DIAMOND_HOE,
+            GOLD_INFUSED_DIAMOND_PAXEL,
+            GOLD_INFUSED_DIAMOND_PICKAXE,
+            GOLD_INFUSED_DIAMOND_SHOVEL,
+            GOLD_INFUSED_DIAMOND_SWORD,
+            RUBY,
+            RUBY_AXE,
+            RUBY_HOE,
+            RUBY_PICKAXE,
+            RUBY_SHOVEL,
+            RUBY_SWORD,
+            RUBY_HELMET,
+            RUBY_CHESTPLATE,
+            RUBY_LEGGINGS,
+            RUBY_BOOTS
     };
 
     // ----------------------
 
     public static final Block[] MOD_BLOCKS = new Block[]{
-            sample_block,
-            ruby_ore,
-            ruby_chest
+            SAMPLE_BLOCK,
+            RUBY_ORE,
+            RUBY_CHEST,
+            BARLEY_CROP
     };
 
     // ----------------------

@@ -7,21 +7,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubyHoe extends ItemHoe{
     public RubyHoe() {
-        super(ItemToolMaterial.RUBY);
+        super(ItemToolMaterial.RUBY_TOOL);
         setUnlocalizedName("ruby_hoe");
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "xx ",
-                " y ",
-                " y ",
-                'x', "gemRuby",
-                'y', "stickWood"
-        ));
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                " xx",
-                " y ",
-                " y ",
-                'x', "gemRuby",
-                'y', "stickWood"
-        ));
+        canRepair = true;
     }
 }

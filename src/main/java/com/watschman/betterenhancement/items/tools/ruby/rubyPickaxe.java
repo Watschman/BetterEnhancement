@@ -7,13 +7,8 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubyPickaxe extends ItemPickaxe{
     public RubyPickaxe() {
-        super(ItemToolMaterial.RUBY);
+        super(ItemToolMaterial.RUBY_TOOL);
         setUnlocalizedName("ruby_pickaxe");
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "xxx",
-                " y ",
-                " y ",
-                'x', "gemRuby",
-                'y', "stickWood"));
+        canRepair = true;
     }
 }

@@ -31,7 +31,7 @@ public class OreGenHandler implements IWorldGenerator{
         }
     }
     private void generate(World world, Random random, int x, int z){
-        this.oreSpawn(ModBlocks.ruby_ore, Blocks.STONE, world, random, x, z, MathHelper.getRandomIntegerInRange(random, 5, 8), 7, 0, 30);
+        this.oreSpawn(ModBlocks.RUBY_ORE, Blocks.STONE, world, random, x, z, MathHelper.getRandomIntegerInRange(random, 5, 8), 7, 0, 30);
     }
     public void oreSpawn(Block block, Block blockIn, World world, Random random, int xPos, int zPos, int maxVeinSize, int changetoSpawn, int minY, int maxY){
         if (maxY > minY){

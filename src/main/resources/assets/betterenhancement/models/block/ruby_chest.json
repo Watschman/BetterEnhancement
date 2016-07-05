@@ -1,6 +1,6 @@
 {
   "textures": {
-    "texture": "betterenhancement:model/ruby_chest"
+    "texture": "betterenhancement:blocks/storage/ruby_chest"
   },
   "elements": [
     {   "from": [ 1, 0, 1 ],

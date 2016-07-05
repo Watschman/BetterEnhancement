@@ -1,5 +1,6 @@
 package com.watschman.betterenhancement;
 
+import com.watschman.betterenhancement.crafting.InitCrafting;
 import com.watschman.betterenhancement.handler.ConfigurationHandler;
 import com.watschman.betterenhancement.handler.OreDictHandler;
 import com.watschman.betterenhancement.handler.OreGenHandler;
@@ -31,6 +32,7 @@ public class BetterEnhancement
         LogHelper.info("PreInitialization of Mod: " + Reference.MOD_NAME + " has started.");
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         MinecraftForge.EVENT_BUS.register(ConfigurationHandler.INSTANCE);
+        MinecraftForge.EVENT_BUS.register(new InitCrafting());
         proxy.preInit(event);
         LogHelper.info("PreInitialization of Mod: " + Reference.MOD_NAME + " has ended.");
     }

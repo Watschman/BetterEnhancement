@@ -1,7 +1,6 @@
 package com.watschman.betterenhancement.items.tools.goldinfuseddiamond;
 
 import com.google.common.collect.ImmutableSet;
-import com.google.common.collect.Sets;
 import com.watschman.betterenhancement.items.ModItems;
 import com.watschman.betterenhancement.items.tools.ItemToolMaterial;
 import com.watschman.betterenhancement.reference.ArrayReference;
@@ -9,10 +8,8 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTool;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
@@ -20,16 +17,9 @@ import java.util.Set;
 
 public class GoldInfusedDiamondPaxel extends ItemPickaxe{
     public GoldInfusedDiamondPaxel() {
-        super(ItemToolMaterial.GOLD_INFUSED_DIAMOND);
+        super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
         setUnlocalizedName("gold_infused_diamond_paxel");
-        GameRegistry.addRecipe(new ShapedOreRecipe(this,
-                "xyz",
-                " a ",
-                " a ",
-                'a', new ItemStack(Blocks.GOLD_BLOCK),
-                'x', new ItemStack(ModItems.gold_infused_diamond_axe),
-                'y', new ItemStack(ModItems.gold_infused_diamond_pickaxe),
-                'z', new ItemStack(ModItems.gold_infused_diamond_shovel)));
+        canRepair = true;
     }
     @Override
     public Set<String> getToolClasses(ItemStack stack){

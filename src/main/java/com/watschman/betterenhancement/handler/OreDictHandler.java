@@ -5,9 +5,16 @@ import com.watschman.betterenhancement.items.ModItems;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class OreDictHandler extends OreDictionary{
+
+
     public static void init(){
-        registerOre("oreRuby", ModBlocks.ruby_ore);
-        registerOre("gemRuby", ModItems.ruby);
+        //Blocks
+        registerOre("oreRuby", ModBlocks.RUBY_ORE);
+        //Items
+        registerOre("gemRuby", ModItems.RUBY);
+        registerOre("seedBarley", ModItems.BARLEY_SEED);
+        registerOre("cropBarley", ModItems.BARLEY);
+        registerOre("foodBarley", ModItems.BARLEY);
     }
 
 }

@@ -7,6 +7,7 @@ itemGroup.better_enhancement_tab=Better Enhancement
 tile.sample_block.name=sample Block
 tile.ruby_ore.name=Ruby Ore
 tile.ruby_chest.name=Ruby Chest
+tile.barley_crop.name=Barley
 
 <Items>
 <Tools/Weapons>
@@ -23,9 +24,19 @@ item.ruby_shovel.name=Ruby Shovel
 item.ruby_hoe.name=Ruby Hoe
 item.ruby_sword.name=Ruby Sword
 
+<Armor>
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots=Ruby Boots
+
 <Food>
 item.butter.name=Butter
 item.carrot_apple.name=Carrot flavoured Apple
+item.barley.name=Barley
+
+<Seeds>
+item.barley_seed.name=Barley Seeds
 
 <Misc>
 item.sample_item.name=sample Item
