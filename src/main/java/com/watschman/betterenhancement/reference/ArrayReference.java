@@ -1,9 +1,12 @@
 package com.watschman.betterenhancement.reference;
 
 import com.google.common.collect.Sets;
+import com.watschman.betterenhancement.tileentity.ModTileEntites;
+import com.watschman.betterenhancement.tileentity.misc.SampleBlockTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.tileentity.TileEntity;
 
 import java.util.Set;
 
@@ -42,6 +45,13 @@ public class ArrayReference {
             RUBY_ORE,
             RUBY_CHEST,
             BARLEY_CROP
+    };
+
+    // ----------------------
+
+    public static final TileEntity[] MOD_TILE_ENTITIES = new TileEntity[]{
+            ModTileEntites.TILE_ENTITY_RUBY_CHEST,
+            ModTileEntites.TILE_ENTITY_SAMPLE_BLOCK
     };
 
     // ----------------------

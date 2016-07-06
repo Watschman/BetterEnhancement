@@ -7,6 +7,7 @@ import com.watschman.betterenhancement.handler.OreGenHandler;
 import com.watschman.betterenhancement.proxy.IProxy;
 import com.watschman.betterenhancement.reference.Reference;
 import com.watschman.betterenhancement.server.BetterEnhancementCommand;
+import com.watschman.betterenhancement.tileentity.ModTileEntites;
 import com.watschman.betterenhancement.util.LogHelper;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
