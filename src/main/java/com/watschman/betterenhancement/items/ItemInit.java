@@ -13,9 +13,9 @@ public class ItemInit {
         for (Item item : ArrayReference.MOD_ITEMS) {
             try {
                 RegistryHelper.registerItem(item, item.getUnlocalizedName().substring(5), CreativeTab.BetterEnhancementTab);
-                LogHelper.info("Registering Item: " + item.getUnlocalizedName().substring(5));
+                LogHelper.info("Registering Item: " + item.getClass().getSimpleName());
             }catch (Exception ex){
-                LogHelper.fatal("There was a fatal Problem with the initialization from Item: " + item);
+                LogHelper.fatal("There was a fatal Problem with the initialization from Item: " + item.getClass().getSimpleName());
                 ex.printStackTrace();
             }
         }

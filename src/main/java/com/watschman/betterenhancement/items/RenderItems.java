@@ -12,9 +12,9 @@ public class RenderItems {
         for (Item item : ArrayReference.MOD_ITEMS){
             try {
                 registerRender(item);
-                LogHelper.info("registerRenders for Item: " + item.getUnlocalizedName().substring(5));
+                LogHelper.info("registerRenders for Item: " + item.getClass().getSimpleName());
             }catch (Exception ex){
-                LogHelper.fatal("There was an exception while registering the renders for Item: " + item.getUnlocalizedName().substring(5));
+                LogHelper.fatal("There was an exception while registering the renders for Item: " + item.getClass().getSimpleName());
                 ex.printStackTrace();
             }
         }
@@ -22,6 +22,6 @@ public class RenderItems {
 
 
     private static void registerRender(Item item){
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }
 }

@@ -13,9 +13,9 @@ public class RenderBlock {
         for (Block block : ArrayReference.MOD_BLOCKS){
             try {
                 registerRender(block);
-                LogHelper.info("registerRenders for Block: " + block.getUnlocalizedName().substring(5));
+                LogHelper.info("registerRenders for Block: " + block.getClass().getSimpleName());
             }catch (Exception ex){
-                LogHelper.fatal("There was an exception while registering the renders for Block: " + block.getUnlocalizedName().substring(5));
+                LogHelper.fatal("There was an exception while registering the renders for Block: " + block.getClass().getSimpleName());
                 ex.printStackTrace();
             }
         }
@@ -23,6 +23,6 @@ public class RenderBlock {
 
     private static void registerRender(Block block){
         Item item = Item.getItemFromBlock(block);
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));
     }
 }

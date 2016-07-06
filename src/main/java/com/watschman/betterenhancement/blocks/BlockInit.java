@@ -11,9 +11,9 @@ public class BlockInit {
         for (Block block : ArrayReference.MOD_BLOCKS){
             try {
                 RegistryHelper.registerBlock(block, block.getUnlocalizedName().substring(5), CreativeTab.BetterEnhancementTab);
-                LogHelper.info("Registering Block: " + block.getUnlocalizedName().substring(5));
+                LogHelper.info("Registering Block: " + block.getClass().getSimpleName());
             }catch (Exception ex){
-                LogHelper.fatal("There was a fatal Problem with the initialization from Block: " + block);
+                LogHelper.fatal("There was a fatal Problem with the initialization from Block: " + block.getClass().getSimpleName());
                 ex.printStackTrace();
             }
         }
