@@ -26,6 +26,8 @@ public class ArrayReference {
             GOLD_INFUSED_DIAMOND_PICKAXE,
             GOLD_INFUSED_DIAMOND_SHOVEL,
             GOLD_INFUSED_DIAMOND_SWORD,
+            SAPPHIRE,
+            GREEN_SAPPHIRE,
             RUBY,
             RUBY_AXE,
             RUBY_HOE,
@@ -43,7 +45,11 @@ public class ArrayReference {
     public static final Block[] MOD_BLOCKS = new Block[]{
             SAMPLE_BLOCK,
             RUBY_ORE,
+            SAPPHIRE_ORE,
+            GREEN_SAPPHIRE_ORE,
             RUBY_CHEST,
+            SAPPHIRE_CHEST,
+            GREEN_SAPPHIRE_CHEST,
             BARLEY_CROP
     };
 
@@ -51,7 +57,9 @@ public class ArrayReference {
 
     public static final TileEntity[] MOD_TILE_ENTITIES = new TileEntity[]{
             ModTileEntites.TILE_ENTITY_RUBY_CHEST,
-            ModTileEntites.TILE_ENTITY_SAMPLE_BLOCK
+            ModTileEntites.TILE_ENTITY_SAMPLE_BLOCK,
+            ModTileEntites.TILE_ENTITY_SAPPHIRE_CHEST,
+            ModTileEntites.TILE_ENTITY_GREEN_SAPPHIRE_CHEST
     };
 
     // ----------------------

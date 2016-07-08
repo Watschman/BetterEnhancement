@@ -5,9 +5,17 @@ itemGroup.better_enhancement_tab=Better Enhancement
 
 <Blocks>
 tile.sample_block.name=sample Block
-tile.ruby_ore.name=Ruby Ore
-tile.ruby_chest.name=Ruby Chest
 tile.barley_crop.name=Barley
+
+<Ores>
+tile.ruby_ore.name=Ruby Ore
+tile.sapphire_ore.name=Sapphire Ore
+tile.green_sapphire_ore.name=Green Sapphire Ore
+
+<Chests>
+tile.ruby_chest.name=Ruby Chest
+tile.sapphire_chest.name=Sapphire Chest
+tile.green_sapphire_chest.name=Green Sapphire Chest
 
 <Items>
 <Tools/Weapons>
@@ -38,6 +46,10 @@ item.barley.name=Barley
 <Seeds>
 item.barley_seed.name=Barley Seeds
 
+<gems>
+item.ruby.name=Ruby
+item.sapphire.name=Sapphire
+item.green_sapphire.name=Green Sapphire
+
 <Misc>
 item.sample_item.name=sample Item
-item.ruby.name=Ruby

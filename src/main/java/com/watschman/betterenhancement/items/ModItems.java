@@ -7,7 +7,9 @@ import com.watschman.betterenhancement.items.armor.ruby.RubyLeggings;
 import com.watschman.betterenhancement.items.food.Barley;
 import com.watschman.betterenhancement.items.food.Butter;
 import com.watschman.betterenhancement.items.food.CarrotApple;
+import com.watschman.betterenhancement.items.gems.GreenSapphire;
 import com.watschman.betterenhancement.items.gems.Ruby;
+import com.watschman.betterenhancement.items.gems.Sapphire;
 import com.watschman.betterenhancement.items.misc.SampleItem;
 import com.watschman.betterenhancement.items.seeds.BarleySeed;
 import com.watschman.betterenhancement.items.tools.goldinfuseddiamond.*;
@@ -26,6 +28,8 @@ public class ModItems {
     public static Item GOLD_INFUSED_DIAMOND_SWORD = new GoldInfusedDiamondSword();
     public static Item GOLD_INFUSED_DIAMOND_PAXEL = new GoldInfusedDiamondPaxel();
     public static Item RUBY = new Ruby();
+    public static Item SAPPHIRE = new Sapphire();
+    public static Item GREEN_SAPPHIRE = new GreenSapphire();
     public static Item RUBY_PICKAXE = new RubyPickaxe();
     public static Item RUBY_AXE = new RubyAxe();
     public static Item RUBY_SHOVEL = new RubyShovel();

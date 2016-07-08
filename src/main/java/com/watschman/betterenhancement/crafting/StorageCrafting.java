@@ -14,5 +14,17 @@ class StorageCrafting {
                 "xxx",
                 'x', "gemRuby",
                 'y', new ItemStack(Blocks.CHEST)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.SAPPHIRE_CHEST),
+                "xxx",
+                "xyx",
+                "xxx",
+                'x', "gemSapphire",
+                'y', new ItemStack(Blocks.CHEST)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.GREEN_SAPPHIRE_CHEST),
+                "xxx",
+                "xyx",
+                "xxx",
+                'x', "gemGreenSapphire",
+                'y', new ItemStack(Blocks.CHEST)));
     }
 }

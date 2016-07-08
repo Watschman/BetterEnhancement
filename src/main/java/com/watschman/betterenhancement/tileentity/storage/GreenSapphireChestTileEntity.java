@@ -11,7 +11,7 @@ import net.minecraft.util.ITickable;
 
 import javax.annotation.Nullable;
 
-public class RubyChestTileEntity extends TileEntity implements ITickable, IInventory{
+public class GreenSapphireChestTileEntity extends TileEntity implements ITickable, IInventory{
 
     private int inventorySize= 72;
 
@@ -19,7 +19,7 @@ public class RubyChestTileEntity extends TileEntity implements ITickable, IInven
     private String customName;
     private static EnumFacing forward = EnumFacing.NORTH;
 
-    public RubyChestTileEntity(){
+    public GreenSapphireChestTileEntity(){
         this.inventory = new ItemStack[this.getSizeInventory()];
     }
 
@@ -149,7 +149,7 @@ public class RubyChestTileEntity extends TileEntity implements ITickable, IInven
 
     @Override
     public String getName() {
-        return this.hasCustomName() ? this.customName : "container.ruby_chest_tile_entity";
+        return this.hasCustomName() ? this.customName : "container.green_sapphire_chest_tile_entity";
     }
 
     @Override
