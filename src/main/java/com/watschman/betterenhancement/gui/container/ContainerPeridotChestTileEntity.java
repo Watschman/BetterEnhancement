@@ -1,7 +1,6 @@
 package com.watschman.betterenhancement.gui.container;
 
-import com.watschman.betterenhancement.items.gems.GreenSapphire;
-import com.watschman.betterenhancement.tileentity.storage.GreenSapphireChestTileEntity;
+import com.watschman.betterenhancement.tileentity.storage.PeridotChestTileEntity;
 import com.watschman.betterenhancement.util.LogHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
@@ -11,14 +10,14 @@ import net.minecraft.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class ContainerGreenSapphireChestTileEntity extends Container {
+public class ContainerPeridotChestTileEntity extends Container {
     private final int xSize = 184;
     private final int ySize = 238;
     private final int col = (xSize - 162) / 2 + 1;
 
-    private GreenSapphireChestTileEntity tileEntity;
+    private PeridotChestTileEntity tileEntity;
 
-    public ContainerGreenSapphireChestTileEntity(IInventory playerInv, GreenSapphireChestTileEntity tileEntity){
+    public ContainerPeridotChestTileEntity(IInventory playerInv, PeridotChestTileEntity tileEntity){
         this.tileEntity = tileEntity;
 
         //Tile Entity, Slot 0-8, Slot IDs 0-72

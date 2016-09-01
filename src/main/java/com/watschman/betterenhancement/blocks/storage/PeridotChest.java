@@ -2,7 +2,7 @@ package com.watschman.betterenhancement.blocks.storage;
 
 import com.watschman.betterenhancement.BetterEnhancement;
 import com.watschman.betterenhancement.handler.GuiHandler;
-import com.watschman.betterenhancement.tileentity.storage.GreenSapphireChestTileEntity;
+import com.watschman.betterenhancement.tileentity.storage.PeridotChestTileEntity;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -21,10 +21,10 @@ import javax.annotation.Nullable;
 
 import static net.minecraft.util.EnumBlockRenderType.MODEL;
 
-public class GreenSapphireChest extends BlockContainer{
-    public GreenSapphireChest() {
+public class PeridotChest extends BlockContainer{
+    public PeridotChest() {
         super(Material.ROCK);
-        setUnlocalizedName("green_sapphire_chest");
+        setUnlocalizedName("peridot_chest");
         setHarvestLevel("pickaxe", 1);
         setHardness(1.2F);
 
@@ -32,7 +32,7 @@ public class GreenSapphireChest extends BlockContainer{
 
     @Override
     public TileEntity createNewTileEntity(World worldIn, int meta) {
-        return new GreenSapphireChestTileEntity();
+        return new PeridotChestTileEntity();
     }
 
     @Override
@@ -42,20 +42,20 @@ public class GreenSapphireChest extends BlockContainer{
 
     @Override
     public void breakBlock(World worldIn, BlockPos pos, IBlockState state) {
-        GreenSapphireChestTileEntity tileEntity = (GreenSapphireChestTileEntity) worldIn.getTileEntity(pos);
+        PeridotChestTileEntity tileEntity = (PeridotChestTileEntity) worldIn.getTileEntity(pos);
         InventoryHelper.dropInventoryItems(worldIn, pos, tileEntity);
         super.breakBlock(worldIn, pos, state);
     }
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack) {
         if (stack.hasDisplayName())
-            ((GreenSapphireChestTileEntity)worldIn.getTileEntity(pos)).setCustomName(stack.getDisplayName());
+            ((PeridotChestTileEntity)worldIn.getTileEntity(pos)).setCustomName(stack.getDisplayName());
     }
 
     @Override
     public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, @Nullable ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ) {
         if (!worldIn.isRemote)
-            playerIn.openGui(BetterEnhancement.instance, GuiHandler.GREEN_SAPPHIRE_CHEST_TILE_ENTITY_GUI, worldIn, pos.getX(), pos.getY(), pos.getZ());
+            playerIn.openGui(BetterEnhancement.instance, GuiHandler.PERIDOT_CHEST_TILE_ENTITY_GUI, worldIn, pos.getX(), pos.getY(), pos.getZ());
         return true;
     }
 

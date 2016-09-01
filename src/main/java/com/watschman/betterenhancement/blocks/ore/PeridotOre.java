@@ -7,14 +7,14 @@ import net.minecraft.item.Item;
 
 import java.util.Random;
 
-public class GreenSapphireOre extends BlockOre{
-    public GreenSapphireOre(){
-        setUnlocalizedName("green_sapphire_ore");
+public class PeridotOre extends BlockOre{
+    public PeridotOre(){
+        setUnlocalizedName("peridot_ore");
         setHarvestLevel("pickaxe", 2);
         setHardness(1F);
     }
     public Item getItemDropped(IBlockState state, Random rand, int fortune){
-        return ModItems.GREEN_SAPPHIRE;
+        return ModItems.PERIDOT;
     }
     public int quantityDropped(Random random){
         return 1 + random.nextInt(5);

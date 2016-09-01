@@ -2,7 +2,6 @@ package com.watschman.betterenhancement.reference;
 
 import com.google.common.collect.Sets;
 import com.watschman.betterenhancement.tileentity.ModTileEntites;
-import com.watschman.betterenhancement.tileentity.misc.SampleBlockTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
@@ -27,7 +26,7 @@ public class ArrayReference {
             GOLD_INFUSED_DIAMOND_SHOVEL,
             GOLD_INFUSED_DIAMOND_SWORD,
             SAPPHIRE,
-            GREEN_SAPPHIRE,
+            PERIDOT,
             RUBY,
             RUBY_AXE,
             RUBY_HOE,
@@ -46,10 +45,10 @@ public class ArrayReference {
             SAMPLE_BLOCK,
             RUBY_ORE,
             SAPPHIRE_ORE,
-            GREEN_SAPPHIRE_ORE,
+            PERIDOT_ORE,
             RUBY_CHEST,
             SAPPHIRE_CHEST,
-            GREEN_SAPPHIRE_CHEST,
+            PERIDOT_CHEST,
             BARLEY_CROP
     };
 
@@ -59,7 +58,7 @@ public class ArrayReference {
             ModTileEntites.TILE_ENTITY_RUBY_CHEST,
             ModTileEntites.TILE_ENTITY_SAMPLE_BLOCK,
             ModTileEntites.TILE_ENTITY_SAPPHIRE_CHEST,
-            ModTileEntites.TILE_ENTITY_GREEN_SAPPHIRE_CHEST
+            ModTileEntites.TILE_ENTITY_PERIDOT_CHEST
     };
 
     // ----------------------

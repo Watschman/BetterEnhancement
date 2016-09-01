@@ -1,8 +1,8 @@
 package com.watschman.betterenhancement.client.gui.tileentities;
 
-import com.watschman.betterenhancement.gui.container.ContainerGreenSapphireChestTileEntity;
+import com.watschman.betterenhancement.gui.container.ContainerPeridotChestTileEntity;
 import com.watschman.betterenhancement.reference.Reference;
-import com.watschman.betterenhancement.tileentity.storage.GreenSapphireChestTileEntity;
+import com.watschman.betterenhancement.tileentity.storage.PeridotChestTileEntity;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.inventory.IInventory;
@@ -12,8 +12,8 @@ public class GuiGreenSapphireChestTileEntity extends GuiContainer {
     private int x = 184;
     private int y = 238;
 
-    public GuiGreenSapphireChestTileEntity(IInventory playerInv, GreenSapphireChestTileEntity tileEntity) {
-        super(new ContainerGreenSapphireChestTileEntity(playerInv, tileEntity));
+    public GuiGreenSapphireChestTileEntity(IInventory playerInv, PeridotChestTileEntity tileEntity) {
+        super(new ContainerPeridotChestTileEntity(playerInv, tileEntity));
         this.xSize = x;
         this.ySize = y;
     }

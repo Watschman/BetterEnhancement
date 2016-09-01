@@ -10,12 +10,12 @@ tile.barley_crop.name=Barley
 <Ores>
 tile.ruby_ore.name=Ruby Ore
 tile.sapphire_ore.name=Sapphire Ore
-tile.green_sapphire_ore.name=Green Sapphire Ore
+tile.peridot_ore.name=Peridot Ore
 
 <Chests>
 tile.ruby_chest.name=Ruby Chest
 tile.sapphire_chest.name=Sapphire Chest
-tile.green_sapphire_chest.name=Green Sapphire Chest
+tile.peridot_chest.name=Peridot Chest
 
 <Items>
 <Tools/Weapons>
@@ -49,7 +49,7 @@ item.barley_seed.name=Barley Seeds
 <gems>
 item.ruby.name=Ruby
 item.sapphire.name=Sapphire
-item.green_sapphire.name=Green Sapphire
+item.peridot.name=Peridot
 
 <Misc>
 item.sample_item.name=sample Item

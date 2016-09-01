@@ -11,7 +11,7 @@ import net.minecraft.util.ITickable;
 
 import javax.annotation.Nullable;
 
-public class GreenSapphireChestTileEntity extends TileEntity implements ITickable, IInventory{
+public class PeridotChestTileEntity extends TileEntity implements ITickable, IInventory{
 
     private int inventorySize= 72;
 
@@ -19,7 +19,7 @@ public class GreenSapphireChestTileEntity extends TileEntity implements ITickabl
     private String customName;
     private static EnumFacing forward = EnumFacing.NORTH;
 
-    public GreenSapphireChestTileEntity(){
+    public PeridotChestTileEntity(){
         this.inventory = new ItemStack[this.getSizeInventory()];
     }
 

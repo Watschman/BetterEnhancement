@@ -1,0 +1,37 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "up": "betterenhancement:blocks/storage/peridot_chest_side",
+      "down": "betterenhancement:blocks/storage/peridot_chest_side",
+      "north": "betterenhancement:blocks/storage/peridot_chest_front",
+      "east": "betterenhancement:blocks/storage/peridot_chest_side",
+      "west": "betterenhancement:blocks/storage/peridot_chest_side",
+      "south": "betterenhancement:blocks/storage/peridot_chest_side",
+      "particle": "betterenhancement:blocks/storage/peridot_chest_side"
+    },
+    "model": "minecraft:cube",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [
+      {}
+    ],
+    "inventory": [
+      {}
+    ],
+    "facing": {
+      "west": {
+        "y": -90
+      },
+      "east": {
+        "y": 90
+      },
+      "north": {
+      },
+      "south": {
+        "y": 180
+      }
+    }
+  }
+}

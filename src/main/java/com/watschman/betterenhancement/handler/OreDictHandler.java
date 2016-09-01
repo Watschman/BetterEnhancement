@@ -11,11 +11,11 @@ public class OreDictHandler extends OreDictionary{
         //Blocks
         registerOre("oreRuby", ModBlocks.RUBY_ORE);
         registerOre("oreSapphire", ModBlocks.SAPPHIRE_ORE);
-        registerOre("oreGreenSapphire", ModBlocks.GREEN_SAPPHIRE_ORE);
+        registerOre("orePeridot", ModBlocks.PERIDOT_ORE);
         //Items
         registerOre("gemRuby", ModItems.RUBY);
         registerOre("gemSapphire", ModItems.SAPPHIRE);
-        registerOre("gemGreenSapphire", ModItems.GREEN_SAPPHIRE);
+        registerOre("gemPeridot", ModItems.PERIDOT);
 
         registerOre("seedBarley", ModItems.BARLEY_SEED);
         registerOre("cropBarley", ModItems.BARLEY);

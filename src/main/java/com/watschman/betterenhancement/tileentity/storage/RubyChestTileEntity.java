@@ -17,7 +17,6 @@ public class RubyChestTileEntity extends TileEntity implements ITickable, IInven
 
     private ItemStack[] inventory;
     private String customName;
-    private static EnumFacing forward = EnumFacing.NORTH;
 
     public RubyChestTileEntity(){
         this.inventory = new ItemStack[this.getSizeInventory()];
@@ -190,8 +189,5 @@ public class RubyChestTileEntity extends TileEntity implements ITickable, IInven
         if (compound.hasKey("CostumName", 8)){
             this.setCustomName(compound.getString("CustomName"));
         }
-    }
-    public static EnumFacing getForward() {
-        return forward;
     }
 }
