@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class GoldInfusedDiamondShovel extends ItemSpade{
-    public GoldInfusedDiamondShovel() {
+    public GoldInfusedDiamondShovel(String name) {
         super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
-        setUnlocalizedName("gold_infused_diamond_shovel");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

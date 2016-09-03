@@ -6,9 +6,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubyShovel extends ItemSpade{
-    public RubyShovel() {
+    public RubyShovel(String name) {
         super(ItemToolMaterial.RUBY_TOOL);
-        setUnlocalizedName("ruby_shovel");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

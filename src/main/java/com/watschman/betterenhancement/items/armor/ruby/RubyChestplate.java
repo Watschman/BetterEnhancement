@@ -5,8 +5,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 
 public class RubyChestplate extends ItemArmor{
-    public RubyChestplate() {
+    public RubyChestplate(String name) {
         super(ArmorToolMaterial.RUBY_ARMOR, 1, EntityEquipmentSlot.CHEST);
-        setUnlocalizedName("ruby_chestplate");
+        setUnlocalizedName(name);
     }
 }

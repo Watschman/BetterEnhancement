@@ -49,7 +49,9 @@ public class ArrayReference {
             RUBY_CHEST,
             SAPPHIRE_CHEST,
             PERIDOT_CHEST,
-            BARLEY_CROP
+            BARLEY_CROP,
+            RUBY_FURNACE,
+            LIT_RUBY_FURNACE
     };
 
     // ----------------------
@@ -58,7 +60,8 @@ public class ArrayReference {
             ModTileEntites.TILE_ENTITY_RUBY_CHEST,
             ModTileEntites.TILE_ENTITY_SAMPLE_BLOCK,
             ModTileEntites.TILE_ENTITY_SAPPHIRE_CHEST,
-            ModTileEntites.TILE_ENTITY_PERIDOT_CHEST
+            ModTileEntites.TILE_ENTITY_PERIDOT_CHEST,
+            ModTileEntites.TILE_ENTITY_RUBY_FURNACE
     };
 
     // ----------------------

@@ -8,8 +8,8 @@ import net.minecraft.item.Item;
 import java.util.Random;
 
 public class SapphireOre extends BlockOre{
-    public SapphireOre(){
-        setUnlocalizedName("sapphire_ore");
+    public SapphireOre(String name){
+        setUnlocalizedName(name);
         setHarvestLevel("pickaxe", 2);
         setHardness(1F);
     }

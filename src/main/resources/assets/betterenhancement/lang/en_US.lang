@@ -3,6 +3,9 @@
 <CreativeTab>
 itemGroup.better_enhancement_tab=Better Enhancement
 
+<Container>
+container.ruby_furnace=Ruby Furnace
+
 <Blocks>
 tile.sample_block.name=sample Block
 tile.barley_crop.name=Barley
@@ -16,6 +19,9 @@ tile.peridot_ore.name=Peridot Ore
 tile.ruby_chest.name=Ruby Chest
 tile.sapphire_chest.name=Sapphire Chest
 tile.peridot_chest.name=Peridot Chest
+
+<Furnaces>
+tile.ruby_furnace.name=Ruby Furnace
 
 <Items>
 <Tools/Weapons>

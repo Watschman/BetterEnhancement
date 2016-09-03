@@ -18,29 +18,29 @@ import net.minecraft.item.Item;
 
 public class ModItems {
 
-    public static Item SAMPLE_ITEM = new SampleItem();
-    public static Item CARROT_APPLE = new CarrotApple();
-    public static Item BUTTER = new Butter();
-    public static Item GOLD_INFUSED_DIAMOND_PICKAXE = new GoldInfusedDiamondPickaxe();
-    public static Item GOLD_INFUSED_DIAMOND_AXE = new GoldInfusedDiamondAxe();
-    public static Item GOLD_INFUSED_DIAMOND_SHOVEL = new GoldInfusedDiamondShovel();
-    public static Item GOLD_INFUSED_DIAMOND_HOE = new GoldInfusedDiamondHoe();
-    public static Item GOLD_INFUSED_DIAMOND_SWORD = new GoldInfusedDiamondSword();
-    public static Item GOLD_INFUSED_DIAMOND_PAXEL = new GoldInfusedDiamondPaxel();
-    public static Item RUBY = new Ruby();
-    public static Item SAPPHIRE = new Sapphire();
-    public static Item PERIDOT = new Peridot();
-    public static Item RUBY_PICKAXE = new RubyPickaxe();
-    public static Item RUBY_AXE = new RubyAxe();
-    public static Item RUBY_SHOVEL = new RubyShovel();
-    public static Item RUBY_HOE = new RubyHoe();
-    public static Item RUBY_SWORD = new RubySword();
-    public static Item BARLEY = new Barley();
-    public static Item BARLEY_SEED = new BarleySeed();
-    public static Item RUBY_HELMET = new RubyHelmet();
-    public static Item RUBY_CHESTPLATE = new RubyChestplate();
-    public static Item RUBY_LEGGINGS = new RubyLeggings();
-    public static Item RUBY_BOOTS = new RubyBoots();
+    public static Item SAMPLE_ITEM = new SampleItem("sample_item");
+    public static Item CARROT_APPLE = new CarrotApple("carrot_apple");
+    public static Item BUTTER = new Butter("butter");
+    public static Item GOLD_INFUSED_DIAMOND_PICKAXE = new GoldInfusedDiamondPickaxe("gold_infused_diamond_pickaxe");
+    public static Item GOLD_INFUSED_DIAMOND_AXE = new GoldInfusedDiamondAxe("gold_infused_diamond_axe");
+    public static Item GOLD_INFUSED_DIAMOND_SHOVEL = new GoldInfusedDiamondShovel("gold_infused_diamond_shovel");
+    public static Item GOLD_INFUSED_DIAMOND_HOE = new GoldInfusedDiamondHoe("gold_infused_diamond_hoe");
+    public static Item GOLD_INFUSED_DIAMOND_SWORD = new GoldInfusedDiamondSword("gold_infused_diamond_sword");
+    public static Item GOLD_INFUSED_DIAMOND_PAXEL = new GoldInfusedDiamondPaxel("gold_infused_diamond_paxel");
+    public static Item RUBY = new Ruby("ruby");
+    public static Item SAPPHIRE = new Sapphire("sapphire");
+    public static Item PERIDOT = new Peridot("peridot");
+    public static Item RUBY_PICKAXE = new RubyPickaxe("ruby_pickaxe");
+    public static Item RUBY_AXE = new RubyAxe("ruby_axe");
+    public static Item RUBY_SHOVEL = new RubyShovel("ruby_shovel");
+    public static Item RUBY_HOE = new RubyHoe("ruby_hoe");
+    public static Item RUBY_SWORD = new RubySword("ruby_sword");
+    public static Item BARLEY = new Barley("barley");
+    public static Item BARLEY_SEED = new BarleySeed("barley_seed");
+    public static Item RUBY_HELMET = new RubyHelmet("ruby_helmet");
+    public static Item RUBY_CHESTPLATE = new RubyChestplate("ruby_chestplate");
+    public static Item RUBY_LEGGINGS = new RubyLeggings("ruby_leggings");
+    public static Item RUBY_BOOTS = new RubyBoots("ruby_boots");
 
 
 }

@@ -11,9 +11,9 @@ public class CarrotApple extends ItemFood {
     private static int heal_amount = 10;
     private static float saturation = 12F;
     private static boolean isWolfFood = false;
-    public CarrotApple(){
+    public CarrotApple(String name){
         super(heal_amount, saturation, isWolfFood);
-        setUnlocalizedName("carrot_apple");
+        setUnlocalizedName(name);
         setMaxStackSize(32);
     }
 }

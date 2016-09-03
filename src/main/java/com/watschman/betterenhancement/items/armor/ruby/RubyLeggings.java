@@ -5,8 +5,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 
 public class RubyLeggings extends ItemArmor{
-    public RubyLeggings() {
+    public RubyLeggings(String name) {
         super(ArmorToolMaterial.RUBY_ARMOR, 2, EntityEquipmentSlot.LEGS);
-        setUnlocalizedName("ruby_leggings");
+        setUnlocalizedName(name);
     }
 }

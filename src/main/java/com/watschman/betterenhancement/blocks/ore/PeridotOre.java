@@ -8,8 +8,8 @@ import net.minecraft.item.Item;
 import java.util.Random;
 
 public class PeridotOre extends BlockOre{
-    public PeridotOre(){
-        setUnlocalizedName("peridot_ore");
+    public PeridotOre(String name){
+        setUnlocalizedName(name);
         setHarvestLevel("pickaxe", 2);
         setHardness(1F);
     }

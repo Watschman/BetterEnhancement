@@ -149,7 +149,7 @@ public class PeridotChestTileEntity extends TileEntity implements ITickable, IIn
 
     @Override
     public String getName() {
-        return this.hasCustomName() ? this.customName : "container.green_sapphire_chest_tile_entity";
+        return this.hasCustomName() ? this.customName : "container.peridot_chest_tile_entity";
     }
 
     @Override
@@ -190,8 +190,5 @@ public class PeridotChestTileEntity extends TileEntity implements ITickable, IIn
         if (compound.hasKey("CostumName", 8)){
             this.setCustomName(compound.getString("CustomName"));
         }
-    }
-    public static EnumFacing getForward() {
-        return forward;
     }
 }

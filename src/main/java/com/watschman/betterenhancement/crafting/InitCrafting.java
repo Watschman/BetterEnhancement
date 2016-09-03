@@ -13,6 +13,8 @@ public class InitCrafting {
 
         StorageCrafting.registerStorage();
 
+        FurnaceCrafting.registerFurnaces();
+
         ToolsCrafting.registerRubyTools();
         ToolsCrafting.registerGoldInfusedDiamondTools();
 

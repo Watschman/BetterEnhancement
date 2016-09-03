@@ -1,6 +1,6 @@
 package com.watschman.betterenhancement.handler;
 
-import com.watschman.betterenhancement.client.gui.tileentities.GuiGreenSapphireChestTileEntity;
+import com.watschman.betterenhancement.client.gui.tileentities.GuiPeridotChestTileEntity;
 import com.watschman.betterenhancement.client.gui.tileentities.GuiRubyChestTileEntity;
 import com.watschman.betterenhancement.client.gui.tileentities.GuiSapphireChestTileEntity;
 import com.watschman.betterenhancement.gui.container.ContainerPeridotChestTileEntity;
@@ -38,7 +38,7 @@ public class GuiHandler implements IGuiHandler{
         if (ID == SAPPHIRE_CHEST_TILE_ENTITY_GUI)
             return new GuiSapphireChestTileEntity(player.inventory, (SapphireChestTileEntity) world.getTileEntity(new BlockPos(x, y, z)));
         if (ID == PERIDOT_CHEST_TILE_ENTITY_GUI)
-            return new GuiGreenSapphireChestTileEntity(player.inventory, (PeridotChestTileEntity) world.getTileEntity(new BlockPos(x, y, z)));
+            return new GuiPeridotChestTileEntity(player.inventory, (PeridotChestTileEntity) world.getTileEntity(new BlockPos(x, y, z)));
 
         return null;
     }

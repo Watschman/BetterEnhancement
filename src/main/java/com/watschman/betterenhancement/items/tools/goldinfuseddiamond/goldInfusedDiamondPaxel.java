@@ -16,9 +16,9 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 import java.util.Set;
 
 public class GoldInfusedDiamondPaxel extends ItemPickaxe{
-    public GoldInfusedDiamondPaxel() {
+    public GoldInfusedDiamondPaxel(String name) {
         super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
-        setUnlocalizedName("gold_infused_diamond_paxel");
+        setUnlocalizedName(name);
         canRepair = true;
     }
     @Override

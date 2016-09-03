@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "betterenhancement:blocks/furnaces/ruby_furnace_top",
+    "front": "betterenhancement:blocks/furnaces/ruby_furnace_front_on",
+    "side": "betterenhancement:blocks/furnaces/ruby_furnace_side"
+  }
+}

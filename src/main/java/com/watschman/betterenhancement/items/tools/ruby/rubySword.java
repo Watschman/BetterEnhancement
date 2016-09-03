@@ -6,9 +6,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubySword extends ItemSword{
-    public RubySword() {
+    public RubySword(String name) {
         super(ItemToolMaterial.RUBY_TOOL);
-        setUnlocalizedName("ruby_sword");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

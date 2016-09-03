@@ -12,9 +12,9 @@ import java.util.Set;
 
 public class RubyAxe extends ItemTool{
     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE, Blocks.WOODEN_SLAB);
-    public RubyAxe() {
+    public RubyAxe(String name) {
         super(1.0F, -2.6F, ItemToolMaterial.RUBY_TOOL, EFFECTIVE_ON);
-        setUnlocalizedName("ruby_axe");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

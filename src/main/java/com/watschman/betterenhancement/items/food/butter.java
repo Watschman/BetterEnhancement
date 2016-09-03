@@ -11,8 +11,8 @@ public class Butter extends ItemFood {
     private static int heal_amount = 3;
     private static float saturation = 6F;
     private static boolean isWolfFood = false;
-    public Butter(){
+    public Butter(String name){
         super(heal_amount, saturation, isWolfFood);
-        setUnlocalizedName("butter");
+        setUnlocalizedName(name);
     }
 }

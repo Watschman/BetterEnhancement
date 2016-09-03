@@ -8,8 +8,8 @@ import net.minecraft.item.Item;
 import java.util.Random;
 
 public class RubyOre extends BlockOre{
-    public RubyOre(){
-        setUnlocalizedName("ruby_ore");
+    public RubyOre(String name){
+        setUnlocalizedName(name);
         setHarvestLevel("pickaxe", 2);
         setHardness(1F);
     }

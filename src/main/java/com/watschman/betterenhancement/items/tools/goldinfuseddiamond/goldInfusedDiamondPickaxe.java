@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class GoldInfusedDiamondPickaxe extends ItemPickaxe{
-    public GoldInfusedDiamondPickaxe() {
+    public GoldInfusedDiamondPickaxe(String name) {
         super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
-        setUnlocalizedName("gold_infused_diamond_pickaxe");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

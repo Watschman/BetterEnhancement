@@ -6,9 +6,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RubyPickaxe extends ItemPickaxe{
-    public RubyPickaxe() {
+    public RubyPickaxe(String name) {
         super(ItemToolMaterial.RUBY_TOOL);
-        setUnlocalizedName("ruby_pickaxe");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

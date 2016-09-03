@@ -5,8 +5,8 @@ import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 
 public class RubyBoots extends ItemArmor{
-    public RubyBoots() {
+    public RubyBoots(String name) {
         super(ArmorToolMaterial.RUBY_ARMOR, 1, EntityEquipmentSlot.FEET);
-        setUnlocalizedName("ruby_boots");
+        setUnlocalizedName(name);
     }
 }

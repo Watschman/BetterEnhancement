@@ -8,11 +8,11 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.util.ResourceLocation;
 
-public class GuiGreenSapphireChestTileEntity extends GuiContainer {
+public class GuiPeridotChestTileEntity extends GuiContainer {
     private int x = 184;
     private int y = 238;
 
-    public GuiGreenSapphireChestTileEntity(IInventory playerInv, PeridotChestTileEntity tileEntity) {
+    public GuiPeridotChestTileEntity(IInventory playerInv, PeridotChestTileEntity tileEntity) {
         super(new ContainerPeridotChestTileEntity(playerInv, tileEntity));
         this.xSize = x;
         this.ySize = y;
@@ -21,7 +21,7 @@ public class GuiGreenSapphireChestTileEntity extends GuiContainer {
     @Override
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
         GlStateManager.color(1.0f, 1.0f, 1.0f, 1.0f);
-        this.mc.getTextureManager().bindTexture(new ResourceLocation(Reference.MOD_ID, "textures/gui/container/ruby_chest_tile_entity_gui.png"));
+        this.mc.getTextureManager().bindTexture(new ResourceLocation(Reference.MOD_ID, "textures/gui/container/peridot_chest_tile_entity_gui.png"));
         this.drawTexturedModalRect((width-this.xSize)/2, (height - this.ySize) / 2, 0, 0, this.xSize, this.ySize);
     }
 

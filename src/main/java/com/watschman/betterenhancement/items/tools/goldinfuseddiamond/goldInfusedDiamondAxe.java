@@ -14,9 +14,9 @@ import java.util.Set;
 
 public class GoldInfusedDiamondAxe extends ItemTool{
     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE, Blocks.WOODEN_SLAB);
-    public GoldInfusedDiamondAxe() {
+    public GoldInfusedDiamondAxe(String name) {
         super(1.0F, -2.6F, ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL, EFFECTIVE_ON);
-        setUnlocalizedName("gold_infused_diamond_axe");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }

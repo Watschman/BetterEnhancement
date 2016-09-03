@@ -5,8 +5,8 @@ import net.minecraft.block.BlockCrops;
 import net.minecraft.item.Item;
 
 public class BarleyCrop extends BlockCrops{
-    public BarleyCrop(){
-        setUnlocalizedName("barley_crop");
+    public BarleyCrop(String name){
+        setUnlocalizedName(name);
     }
 
     @Override

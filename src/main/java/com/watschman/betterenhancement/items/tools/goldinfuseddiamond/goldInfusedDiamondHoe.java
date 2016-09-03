@@ -9,9 +9,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class GoldInfusedDiamondHoe extends ItemHoe{
-    public GoldInfusedDiamondHoe() {
+    public GoldInfusedDiamondHoe(String name) {
         super(ItemToolMaterial.GOLD_INFUSED_DIAMOND_TOOL);
-        setUnlocalizedName("gold_infused_diamond_hoe");
+        setUnlocalizedName(name);
         canRepair = true;
     }
 }
