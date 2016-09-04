@@ -1,6 +1,7 @@
 package com.watschman.betterenhancement.proxy;
 
 import com.watschman.betterenhancement.blocks.RenderBlock;
+import com.watschman.betterenhancement.entity.MobRegistry;
 import com.watschman.betterenhancement.items.RenderItems;
 import com.watschman.betterenhancement.reference.Reference;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,6 +19,7 @@ public class ClientProxy extends CommonProxy {
         super.init(event);
         RenderItems.registerRenders();
         RenderBlock.registerRenders();
+        MobRegistry.register();
     }
 
     @Override

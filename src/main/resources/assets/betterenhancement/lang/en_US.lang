@@ -57,5 +57,10 @@ item.ruby.name=Ruby
 item.sapphire.name=Sapphire
 item.peridot.name=Peridot
 
+<Mobs>
+entity.betterenhancement.sapphire_pig.name=Sapphire Pig
+entity.betterenhancement.ruby_pig.name=Ruby Pig
+entity.betterenhancement.peridot_pig.name=Peridot Pig
+
 <Misc>
 item.sample_item.name=sample Item
