@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "betterenhancement:blocks/furnaces/sapphire_furnace_top",
+    "front": "betterenhancement:blocks/furnaces/sapphire_furnace_front_on",
+    "side": "betterenhancement:blocks/furnaces/sapphire_furnace_side"
+  }
+}

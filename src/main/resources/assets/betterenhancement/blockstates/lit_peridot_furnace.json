@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "betterenhancement:lit_peridot_furnace" },
+    "facing=south": { "model": "betterenhancement:lit_peridot_furnace", "y": 180 },
+    "facing=west":  { "model": "betterenhancement:lit_peridot_furnace", "y": 270 },
+    "facing=east":  { "model": "betterenhancement:lit_peridot_furnace", "y": 90 }
+  }
+}

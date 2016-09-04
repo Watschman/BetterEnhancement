@@ -30,4 +30,52 @@ class ArmorCrafting {
                 "x x",
                 'x', "gemRuby"));
     }
+    static void registerSapphireArmor(){
+        //HELMET
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_HELMET,
+                "xxx",
+                "x x",
+                'x', "gemSapphire"));
+        //CHESTPLATE
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_CHESTPLATE,
+                "x x",
+                "xxx",
+                "xxx",
+                'x', "gemSapphire"));
+        //LEGGINGS
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_LEGGINGS,
+                "xxx",
+                "x x",
+                "x x",
+                'x', "gemSapphire"));
+        //BOOTS
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_BOOTS,
+                "x x",
+                "x x",
+                'x', "gemSapphire"));
+    }
+    static void registerPeridotArmor(){
+        //HELMET
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_HELMET,
+                "xxx",
+                "x x",
+                'x', "gemPeridot"));
+        //CHESTPLATE
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_CHESTPLATE,
+                "x x",
+                "xxx",
+                "xxx",
+                'x', "gemPeridot"));
+        //LEGGINGS
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_LEGGINGS,
+                "xxx",
+                "x x",
+                "x x",
+                'x', "gemPeridot"));
+        //BOOTS
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_BOOTS,
+                "x x",
+                "x x",
+                'x', "gemPeridot"));
+    }
 }

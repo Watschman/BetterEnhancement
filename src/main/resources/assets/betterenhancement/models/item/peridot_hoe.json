@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "betterenhancement:items/tools/peridot/peridot_hoe"
+  }
+}

@@ -6,6 +6,8 @@ public class InitCrafting {
         AlterVanillaBehaviorCrafting.registerBread();
 
         ArmorCrafting.registerRubyArmor();
+        ArmorCrafting.registerSapphireArmor();
+        ArmorCrafting.registerPeridotArmor();
 
         FoodCrafting.registerFood();
 
@@ -16,6 +18,8 @@ public class InitCrafting {
         FurnaceCrafting.registerFurnaces();
 
         ToolsCrafting.registerRubyTools();
+        ToolsCrafting.registerSapphireTools();
+        ToolsCrafting.registerPeridotTools();
         ToolsCrafting.registerGoldInfusedDiamondTools();
 
     }

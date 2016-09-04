@@ -1,7 +1,9 @@
 package com.watschman.betterenhancement.blocks;
 
 import com.watschman.betterenhancement.blocks.crops.BarleyCrop;
+import com.watschman.betterenhancement.blocks.furnaces.PeridotFurnace;
 import com.watschman.betterenhancement.blocks.furnaces.RubyFurnace;
+import com.watschman.betterenhancement.blocks.furnaces.SapphireFurnace;
 import com.watschman.betterenhancement.blocks.misc.*;
 import com.watschman.betterenhancement.blocks.ore.*;
 import com.watschman.betterenhancement.blocks.storage.PeridotChest;
@@ -21,5 +23,9 @@ public class ModBlocks {
     public static Block BARLEY_CROP = new BarleyCrop("barley_crop");
     public static Block RUBY_FURNACE = new RubyFurnace(false, "ruby_furnace");
     public static Block LIT_RUBY_FURNACE = new RubyFurnace(true, "lit_ruby_furnace");
+    public static Block SAPPHIRE_FURNACE = new SapphireFurnace(false, "sapphire_furnace");
+    public static Block LIT_SAPPHIRE_FURNACE = new SapphireFurnace(true, "lit_sapphire_furnace");
+    public static Block PERIDOT_FURNACE = new PeridotFurnace(false, "peridot_furnace");
+    public static Block LIT_PERIDOT_FURNACE = new PeridotFurnace(true, "lit_peridot_furnace");
 
 }

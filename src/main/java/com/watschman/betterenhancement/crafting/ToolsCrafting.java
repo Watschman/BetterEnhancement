@@ -103,4 +103,90 @@ class ToolsCrafting {
                 'x', "gemRuby",
                 'y', "stickWood"));
     }
+    static void registerSapphireTools(){
+        //AXE
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_AXE,
+                "xx ",
+                "xy ",
+                " y ",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+        //HOE
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_HOE,
+                "xx ",
+                " y ",
+                " y ",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_HOE,
+                " xx",
+                " y ",
+                " y ",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+        //PICKAXE
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_PICKAXE,
+                "xxx",
+                " y ",
+                " y ",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+        //SHOVEL
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_SHOVEL,
+                "x",
+                "y",
+                "y",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+        //SWORD
+        GameRegistry.addRecipe(new ShapedOreRecipe(SAPPHIRE_SWORD,
+                "x",
+                "x",
+                "y",
+                'x', "gemSapphire",
+                'y', "stickWood"));
+    }
+    static void registerPeridotTools(){
+        //AXE
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_AXE,
+                "xx ",
+                "xy ",
+                " y ",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+        //HOE
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_HOE,
+                "xx ",
+                " y ",
+                " y ",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_HOE,
+                " xx",
+                " y ",
+                " y ",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+        //PICKAXE
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_PICKAXE,
+                "xxx",
+                " y ",
+                " y ",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+        //SHOVEL
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_SHOVEL,
+                "x",
+                "y",
+                "y",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+        //SWORD
+        GameRegistry.addRecipe(new ShapedOreRecipe(PERIDOT_SWORD,
+                "x",
+                "x",
+                "y",
+                'x', "gemPeridot",
+                'y', "stickWood"));
+    }
 }

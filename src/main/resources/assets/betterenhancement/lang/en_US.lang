@@ -5,6 +5,8 @@ itemGroup.better_enhancement_tab=Better Enhancement
 
 <Container>
 container.ruby_furnace=Ruby Furnace
+container.sapphire_furnace=Sapphire Furnace
+container.peridot_furnace=Peridot Furnace
 
 <Blocks>
 tile.sample_block.name=sample Block
@@ -22,6 +24,8 @@ tile.peridot_chest.name=Peridot Chest
 
 <Furnaces>
 tile.ruby_furnace.name=Ruby Furnace
+tile.sapphire_furnace.name=Sapphire Furnace
+tile.peridot_furnace.name=Peridot Furnace
 
 <Items>
 <Tools/Weapons>
@@ -37,12 +41,37 @@ item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_shovel.name=Ruby Shovel
 item.ruby_hoe.name=Ruby Hoe
 item.ruby_sword.name=Ruby Sword
+item.ruby_paxel.name=Ruby Paxel
+
+item.sapphire_axe.name=Sapphire Axe
+item.sapphire_pickaxe.name=Sapphire Pickaxe
+item.sapphire_shovel.name=Sapphire Shovel
+item.sapphire_hoe.name=Sapphire Hoe
+item.sapphire_sword.name=Sapphire Sword
+item.sapphire_paxel.name=Sapphire Paxel
+
+item.peridot_axe.name=Peridot Axe
+item.peridot_pickaxe.name=Peridot Pickaxe
+item.peridot_shovel.name=Peridot Shovel
+item.peridot_hoe.name=Peridot Hoe
+item.peridot_sword.name=Peridot Sword
+item.peridot_paxel.name=Peridot Paxel
 
 <Armor>
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
 item.ruby_leggings.name=Ruby Leggings
 item.ruby_boots=Ruby Boots
+
+item.sapphire_helmet.name=Sapphire Helmet
+item.sapphire_chestplate.name=Sapphire Chestplate
+item.sapphire_leggings.name=Sapphire Leggings
+item.sapphire_boots=Sapphire Boots
+
+item.peridot_helmet.name=Peridot Helmet
+item.peridot_chestplate.name=Peridot Chestplate
+item.peridot_leggings.name=Peridot Leggings
+item.peridot_boots=Peridot Boots
 
 <Food>
 item.butter.name=Butter

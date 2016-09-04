@@ -16,7 +16,7 @@ public class RenderBlock {
                 LogHelper.info("registerRenders for Block: " + block.getClass().getSimpleName());
             }catch (Exception ex){
                 LogHelper.fatal("There was an exception while registering the renders for Block: " + block.getClass().getSimpleName());
-                ex.printStackTrace();
+                LogHelper.fatal("Following exception has been detected: " + ex);
             }
         }
     }

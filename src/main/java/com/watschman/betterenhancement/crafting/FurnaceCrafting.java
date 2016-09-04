@@ -14,5 +14,17 @@ class FurnaceCrafting {
                 "xxx",
                 'x', "gemRuby",
                 'y', new ItemStack(Blocks.FURNACE)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.SAPPHIRE_FURNACE),
+                "xxx",
+                "xyx",
+                "xxx",
+                'x', "gemSapphire",
+                'y', new ItemStack(Blocks.FURNACE)));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.PERIDOT_FURNACE),
+                "xxx",
+                "xyx",
+                "xxx",
+                'x', "gemPeridot",
+                'y', new ItemStack(Blocks.FURNACE)));
     }
 }

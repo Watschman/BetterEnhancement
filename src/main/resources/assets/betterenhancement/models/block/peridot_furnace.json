@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "betterenhancement:blocks/furnaces/peridot_furnace_top",
+    "front": "betterenhancement:blocks/furnaces/peridot_furnace_front_off",
+    "side": "betterenhancement:blocks/furnaces/peridot_furnace_side"
+  }
+}

@@ -15,7 +15,7 @@ public class RenderItems {
                 LogHelper.info("registerRenders for Item: " + item.getClass().getSimpleName());
             }catch (Exception ex){
                 LogHelper.fatal("There was an exception while registering the renders for Item: " + item.getClass().getSimpleName());
-                ex.printStackTrace();
+                LogHelper.fatal("Following exception has been detected: " + ex);
             }
         }
     }

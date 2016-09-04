@@ -16,6 +16,7 @@ import net.minecraftforge.fml.common.registry.EntityRegistry;
 
 @SuppressWarnings("deprecation")
 public class MobRegistry {
+    //TODO: fix Pigs spawn Babies when breeding.
     public static void register(){
         registerRender();
         registerEntity();
